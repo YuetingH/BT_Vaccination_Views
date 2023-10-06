@@ -3,11 +3,19 @@ This repo documents the dataset and the programming code used in our paper title
 
 
 ## Dataset
->  In this paper, we investigate a temporal dataset that describes the Facebook vaccination views campaign in network representations, involving nearly 100 million users on Facebook from across countries, continents and languages. It was provided by [Johnson et al. (2020)](https://www.nature.com/articles/s41586-020-2281-1) and [Illari et al. (2022)](https://www.science.org/doi/10.1126/sciadv.abo8017) in two versions. The former contains two snapshots in February 2019 and October 2019 (before the COVID-19), and the latter contains another two snapshots in November 2019 and December 2020 (at the initial stage of the COVID-19). 
-Both of them are openly available and documented in two papers separately of different formats (PDF & Excel), thus requiring intensive preprocessing. To make it easier for other researchers to use this dataset, here we reorganize both versions of this dataset in Python pickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
+In this paper, we investigate a temporal dataset that describes the Facebook vaccination views campaign in network representations, involving nearly 100 million users on Facebook from across countries, continents and languages. 
 
+It was provided by [Johnson et al. (2020)](https://www.nature.com/articles/s41586-020-2281-1) and [Illari et al. (2022)](https://www.science.org/doi/10.1126/sciadv.abo8017) in two versions. The former contains two snapshots in February 2019 and October 2019 (before the COVID-19), and the latter contains another two snapshots in November 2019 and December 2020 (at the initial stage of the COVID-19). 
+Both of them are openly available and documented in two papers separately of different formats (PDF & Excel), thus requiring intensive preprocessing. 
+
+To make it easier for other researchers to use this dataset, here we reorganize both versions of this dataset in gpickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
 
 ### Description
+<figure>
+    <img src="Main Dataset/Figures/Data_Image.png" style="width:600px;"/>
+    <figcaption> Network Visualisation of Feb 2019 snapshot </figcaption>
+</figure>
+
 Each node represents a public Facebook page that discusses vaccination topics. It is attributed with fan size, that is, the number of members who subscribe to the Facebook page, along with the other attribute polarity including anti-vaccination, pro-vaccination and neutral. Whereas its polarity remains the same for February and October snapshots, its fan size changes.
 A directed edge from node A to B means page A recommends B to all its members at the page level. 
 During preprocessing, we define an edge weight to quantify the significance of each recommendation. It is obtained by the product of both ends fan size. 
