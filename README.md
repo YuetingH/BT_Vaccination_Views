@@ -10,7 +10,7 @@ Both of them are openly available and documented in two papers separately of dif
 
 To make it easier for other researchers to use this dataset, here we reorganize both versions of this dataset in gpickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
 
-### Description
+### A. Description
 <img src="Main Dataset/Figures/Data_Image.png" style="width:800px;"/>
 
 Each node represents a public Facebook page that discusses vaccination topics. It is attributed with fan size, that is, the number of members who subscribe to the Facebook page, along with the other attribute polarity including **anti-vaccination (red), pro-vaccination (blue) and neutral (green)**. Whereas its polarity remains the same for February and October snapshots, its fan size changes.
@@ -25,7 +25,7 @@ Some basic info about four network snapshots:
 
 More details are available in our paper. Note that we study the first two snapshots in our main paper and present some results about the remaining two snapshots in Supplementary Info. 
 
-### Usage via Python
+### B. Usage via Python
 Dataset import is required to install python package [NetworkX](https://networkx.org/). Details about using this dataset are available in our Jupyter notebooks. For convenience, we briefly mention some instructions here:
 
 ```python
