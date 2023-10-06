@@ -11,7 +11,7 @@ Both of them are openly available and documented in two papers separately of dif
 To make it easier for other researchers to use this dataset, here we reorganize both versions of this dataset in gpickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
 
 ### A. Description
-<img src="Main Dataset/Figures/Data_Image.png" style="width:800px;"/>
+<img src="Main Dataset/Figures/Data_Image.png" style="width:600px;"/>
 
 Each node represents a public Facebook page that discusses vaccination topics. It is attributed with fan size, that is, the number of members who subscribe to the Facebook page, along with the other attribute polarity including **anti-vaccination (red), pro-vaccination (blue) and neutral (green)**. Whereas its polarity remains the same for February and October snapshots, its fan size changes.
 A directed edge from node A to B means page A recommends B to all its members at the page level. 
