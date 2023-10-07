@@ -26,7 +26,7 @@ Some basic info about four network snapshots:
 More details are available in our paper. Note that we study the first two snapshots in our main paper and present some results about the remaining two snapshots in Supplementary Info. 
 
 ### B. Usage via Python
-Dataset import is required to install python package [NetworkX](https://networkx.org/). Details about using this dataset are available in our Jupyter notebooks. For convenience, we briefly mention some instructions here:
+Dataset import using Python is required to install package [NetworkX](https://networkx.org/). Details about using this dataset are available in our Jupyter notebooks. For convenience, we briefly mention some instructions here:
 
 ```python
 import networkx as nx
