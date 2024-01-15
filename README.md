@@ -5,10 +5,10 @@ This repo documents the dataset and the programming code used in our paper title
 ## Dataset
 In this paper, we investigate a temporal dataset that describes the Facebook vaccination views campaign in network representations, involving nearly 100 million users on Facebook from across countries, continents and languages. 
 
-It was provided by [Johnson et al. (2020)](https://www.nature.com/articles/s41586-020-2281-1) and [Illari et al. (2022)](https://www.science.org/doi/10.1126/sciadv.abo8017) in spanning different time periods. The former contains two snapshots in February 2019 and October 2019 (before the COVID-19), and the latter contains another two snapshots in November 2019 and December 2020 (at the initial stage of the COVID-19). 
+It was provided by [Johnson et al. (2020)](https://www.nature.com/articles/s41586-020-2281-1) and [Illari et al. (2022)](https://www.science.org/doi/10.1126/sciadv.abo8017) in spanning different time periods. The former contains two snapshots in February 2019 and October 2019 (before the COVID-19), which we study in our main paper. The latter contains another two snapshots in November 2019 and December 2020 (at the initial stage of the COVID-19), which we study in Supplementary Material. 
 Both of them are openly available and documented in two papers separately of different formats (PDF & Excel), thus requiring intensive preprocessing. 
 
-To make it easier for other researchers to use this dataset, here we reorganize both versions of this dataset in gpickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
+To make it easier for other researchers to use this dataset, here we reorganise both versions of this dataset in gpickle format (can be directly imported as attributed networks using Python) and in CSV format (for general use of the dataset).
 
 ### A. Description
 <img src="Main Dataset/Figures/Data_Image.png" style="width:700px;"/>
@@ -23,7 +23,7 @@ Some basic info about four network snapshots:
 - G3 (Nov 19): 1356 nodes, 7387 edges
 - G4 (Dec 20): 1356 nodes, 7154 edges -- fan count unavailable
 
-More details are available in our paper. Note that we study the first two snapshots in our main paper and present some results about the remaining two snapshots in Supplementary Info. 
+More details are available in our paper. 
 
 ### B. Usage via Python
 Dataset import using Python is required to install package [NetworkX](https://networkx.org/). Details about using this dataset are available in our Jupyter notebooks. For convenience, we briefly mention some instructions here:
