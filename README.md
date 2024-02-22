@@ -1,5 +1,5 @@
 # BT_Vaccination_Views
-This repo documents the dataset and the programming code used in our paper titled "Modelling and Predicting Online Vaccination Views Using Bow-tie Decomposition".
+This repo documents the dataset and the programming code used in our  paper ["Modelling and Predicting Online Vaccination Views using Bow-tie Decomposition"](https://royalsocietypublishing.org/doi/10.1098/rsos.231792), *Royal Society Open Science* (2024).
 
 
 ## Dataset
