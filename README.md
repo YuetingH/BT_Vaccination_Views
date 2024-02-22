@@ -1,5 +1,5 @@
 # BT_Vaccination_Views [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10513913.svg)](https://doi.org/10.5281/zenodo.10513913)
-This repo documents the dataset and the programming code used in our paper ["Modelling and Predicting Online Vaccination Views using Bow-tie Decomposition"](https://royalsocietypublishing.org/doi/10.1098/rsos.231792), *Royal Society Open Science*, by Yueting Han, Marya Bazzi, and Paolo Turrini (2024).
+This repo documents the dataset and the programming code used in our paper ["Modelling and Predicting Online Vaccination Views using Bow-tie Decomposition"](https://royalsocietypublishing.org/doi/10.1098/rsos.231792), *Royal Society Open Science*, authored by Yueting Han, Marya Bazzi, and Paolo Turrini (2024).
 
 
 ## Dataset
